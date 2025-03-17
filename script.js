@@ -2,7 +2,7 @@ function addTask(){
     const inputField = document.getElementById('inputTask')
     const taskText = inputField.value.trim()
     if(taskText == ""){
-        alert("Task can not be empty!")
+        alert("Please enter a task!")
         inputField.value=""
         return
     }
